@@ -2,8 +2,8 @@ function main (a, b){
   
 let i = 0;
   
-  function print() 
-  { 
+  function print(){ 
+    
     if ((a + i) >= b) {clearInterval(intervalId)}
     
     console.log(a + i);
